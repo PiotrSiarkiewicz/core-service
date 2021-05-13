@@ -16,7 +16,6 @@ pipeline {
                     sh '/var/jenkins_home/scripts/scriptsfile.sh'
                 }
             }
-            
         }
         stage("Script2"){
             steps{
