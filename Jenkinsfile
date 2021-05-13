@@ -18,5 +18,13 @@ pipeline {
             }
             
         }
+        stage("Script2"){
+            steps{
+                timeout(time:1, unit:"MINUTES"){
+                    echo "done"
+                }
+            }
+            
+        }
     }
 }
